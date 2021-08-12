@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6183890429823555811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6183890429823555813}
+  - component: {fileID: 6183890429823555810}
+  m_Layer: 0
+  m_Name: Player1 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6183890429823555813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183890429823555811}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6183890430363422834}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6183890429823555810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183890429823555811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3a90e63b7811b469623291373ec772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Tim
+  playerLevel: 1
+  currentEXP: 250
+  expToNextLevel: 
+  maxLevel: 100
+  baseEXP: 1000
+  currentHP: 100
+  maxHP: 100
+  currentMP: 10
+  maxMP: 30
+  mpLvlBonus: 
+  strenght: 15
+  defence: 12
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 7152930139536384079, guid: 38494354fe607584aa2127f8cbff3a9a,
+    type: 3}
+--- !u!1 &6183890430337032504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6183890430337032506}
+  - component: {fileID: 6183890430337032507}
+  m_Layer: 0
+  m_Name: Player2 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6183890430337032506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183890430337032504}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6183890430363422834}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6183890430337032507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183890430337032504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3a90e63b7811b469623291373ec772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Woody
+  playerLevel: 3
+  currentEXP: 543
+  expToNextLevel: 
+  maxLevel: 100
+  baseEXP: 1000
+  currentHP: 120
+  maxHP: 120
+  currentMP: 10
+  maxMP: 25
+  mpLvlBonus: 
+  strenght: 22
+  defence: 16
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 21300000, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
+--- !u!1 &6183890430363422832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6183890430363422834}
+  - component: {fileID: 6183890430363422835}
+  - component: {fileID: 6183890430192816739}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6183890430363422834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183890430363422832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.061794, y: 4.0332747, z: -1.8642578}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6183890429823555813}
+  - {fileID: 6183890430337032506}
+  - {fileID: 6183890431584824856}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6183890430363422835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183890430363422832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5361ccfe1e842743aad81fb2218cae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerStats:
+  - {fileID: 6183890429823555810}
+  - {fileID: 6183890430337032507}
+  - {fileID: 6183890431584824857}
+  gameMenuOpen: 0
+  dialogActive: 0
+  fadingBetweenAreas: 0
+  shopActive: 0
+  battleActive: 0
+  itemsHeld:
+  - Health Potion
+  - Iron Sword
+  - Mana Potion
+  - 
+  - 
+  - Wooden Sword
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  numberOfItems: 10000000020000000700000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  referenceItems:
+  - {fileID: 493184298914505410, guid: a1e68dcce3fff4149b5cea0292733450, type: 3}
+  - {fileID: 6320301713519395859, guid: a56b3770a4eae984eb8bbaef146a7924, type: 3}
+  - {fileID: 7046313408487700091, guid: b82038d9ddac0f242b1e962240b3c0b9, type: 3}
+  - {fileID: 1726630680914658992, guid: 7a6f1ceeadfefdd47b80aeb7d7215784, type: 3}
+  - {fileID: 6632832246903213932, guid: 200253a8db26d8d48bedb968587f379b, type: 3}
+  - {fileID: 1006268612310154104, guid: feae1df283c434d4bada9736f313f228, type: 3}
+  currentGold: 0
+--- !u!114 &6183890430192816739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183890430363422832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a102688254056b64cb1d0033533dfc2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questMarkerNames:
+  - 
+  - fight the demon
+  - enter the cave
+  - quest test
+  - save the world
+  - do something
+  questMarkersComplete: 
+--- !u!1 &6183890431584824854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6183890431584824856}
+  - component: {fileID: 6183890431584824857}
+  m_Layer: 0
+  m_Name: Player3 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6183890431584824856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183890431584824854}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6183890430363422834}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6183890431584824857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183890431584824854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3a90e63b7811b469623291373ec772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Ralph
+  playerLevel: 3
+  currentEXP: 543
+  expToNextLevel: 
+  maxLevel: 100
+  baseEXP: 1000
+  currentHP: 100
+  maxHP: 150
+  currentMP: 0
+  maxMP: 25
+  mpLvlBonus: 
+  strenght: 22
+  defence: 16
+  wpnPwr: 0
+  armrPwr: 0
+  equippedWpn: 
+  equippedArmr: 
+  charImage: {fileID: 21300000, guid: e0ddba6d3fcf21f49949fcc95c849aac, type: 3}
